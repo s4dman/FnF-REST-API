@@ -1,20 +1,28 @@
 # Friend Lookup API
 
-Friends data lookup API using Django REST Framework.
+Family and Friends data lookup REST-API using Django REST Framework.
 
 ## Features
-- GET friends data (id, name, dob, facebook, instagram)
-- POST
-- PUT/UPDATE
-- DELETE
+- JSON Web Token Authentication
+- GET/POST/PUT/DELETE friends info eg. name, dob, address, facebook, instagram etc.
+
+
+*User getting refresh and access token using username and passowrd:*
+![image](https://user-images.githubusercontent.com/9642377/78633196-f1ff5680-786e-11ea-90dc-062157e19505.png)
+
+*User sending access token as Bearer to authenticate and access the API:*
+![image](https://user-images.githubusercontent.com/9642377/78633213-02173600-786f-11ea-875f-9f8a9a365ecb.png)
+
+*API returning friend's information :*
+![image](https://user-images.githubusercontent.com/9642377/78633254-1ce9aa80-786f-11ea-92e2-7917b647309f.png)
+
 
 ## Thanks:
 
 Django REST Framework: https://www.django-rest-framework.org/ 
 
+Simple JWT: https://django-rest-framework-simplejwt.readthedocs.io/en/latest/index.html
+
 **_For learning purpose only_!**
 
 
-![rest1](https://user-images.githubusercontent.com/9642377/76698234-da212200-6676-11ea-95e8-bb9955d9c9c6.png)
-
-![rest1](https://user-images.githubusercontent.com/9642377/76698245-f58c2d00-6676-11ea-989e-f167ce9385e2.png)
