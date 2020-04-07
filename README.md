@@ -1,6 +1,6 @@
-# Friend Lookup API
+# FnF-REST-API
 
-Family and Friends data lookup REST-API using Django REST Framework.
+A REST-API for storing and finding Family and Friends info, built using Django REST Framework.
 
 ## Features
 - JSON Web Token Authentication
