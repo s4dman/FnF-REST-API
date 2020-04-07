@@ -116,6 +116,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Global Permission applied, Only Authenticated Users will be able to access the API
+# JWT Authentication
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
+    'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework_simplejwt.authentication.JWTAuthentication',)
 }
