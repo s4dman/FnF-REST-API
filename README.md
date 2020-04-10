@@ -3,7 +3,9 @@
 A REST-API for storing and finding Family and Friends info, built using Django REST Framework.
 
 ## How to Access:
-Endpoint: http://s4dman.pythonanywhere.com/ <br>username: guest<br>password: hidjango
+Auth Endpoints: 
+* http://s4dman.pythonanywhere.com/api/token/
+* http://s4dman.pythonanywhere.com/<br>username: guest<br>password: hidjango
 
 ## Features
 - JSON Web Token Authentication
